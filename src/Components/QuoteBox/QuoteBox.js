@@ -1,5 +1,5 @@
 import React from "react";
-import SocialShare from "../SocialShare";
+import TweetShare from "../TweetShare";
 import TextTransition, { presets } from "react-text-transition";
 import "./styles.css";
 
@@ -16,7 +16,7 @@ const QuoteBox = ({ quote, changeQuote }) => {
         <TextTransition text={author} springConfig={presets.gentle} />
       </div>
       <div className="buttonBar">
-        <SocialShare
+        <TweetShare
           hashtag={"quote"}
           text={encodeURIComponent('"' + text + '" ' + author)}
         />
