@@ -1,0 +1,22 @@
+social-share {
+  display: flex;
+}
+
+a{ 
+ display: block;
+  height: 3em;
+  width: 3em;
+  background-color: var(--main-color);
+  transition: var(--main-transition);
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 0.5em;
+}
+
+a i{
+  font-size: 1.5em;
+  text-decoration: none;
+}
