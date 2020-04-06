@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import QuoteBox from "./QuoteBox";
-import useQuotes from "../../Hooks/useQuotes";
-import useRandomColor from "../../Hooks/useRandomColor";
+import useQuotes from "../../hooks/useQuotes";
+import useRandomColor from "../../hooks/useRandomColor";
 
 const QuoteBoxContainer = () => {
   const quotes = useQuotes();

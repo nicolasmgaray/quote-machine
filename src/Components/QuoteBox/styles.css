@@ -1,7 +1,7 @@
 #quote-box {
   background: #eee;
   width: 40vw;
-  max-height: auto;
+  min-width: 30em;
   border-radius: 0.5em;
   display: flex;
   justify-content: center;
@@ -17,7 +17,7 @@
   width: 100%;
   margin: auto;
   text-align: center;
-  color: white; 
+  color: white;
   font-size: 0.8em;
 }
 

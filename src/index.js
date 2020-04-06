@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import QuoteBox from "./Components/QuoteBox";
+import QuoteBox from "./components/QuoteBox";
 import "./global.css";
 
 function App() {
