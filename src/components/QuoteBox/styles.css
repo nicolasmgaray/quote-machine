@@ -1,14 +1,18 @@
 #quote-box {
   background: #eee;
-  width: 40vw;
-  min-width: 30em;
+ 
   border-radius: 0.5em;
   display: flex;
   justify-content: center;
   padding: 3em;
   flex-direction: column;
   color: var(--main-color);
+  max-width: 50em;
+  min-width: 20em;
+  margin: 1em;
 }
+
+
 #quote-box::after {
   content: "By Nicolas Garay";
   display: block;

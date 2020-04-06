@@ -6,7 +6,7 @@ import useRandomColor from "../../hooks/useRandomColor";
 const QuoteBoxContainer = () => {
   const quotes = useQuotes();
   useRandomColor("--main-color");
-  const [currentQuote, setCurrentQuote] = useState({});
+  const [currentQuote, setCurrentQuote] = useState({quote:"", author:""});
 
   // Select a random quote, when quotes loaded
   useEffect(() => {
@@ -23,7 +23,7 @@ const QuoteBoxContainer = () => {
 
 // Randomly select a quote, from quotes array
 const getRandomQuote = (quotes) => {
-  if (quotes.length === 0) return {};
+  if (quotes.length === 0) return {quote:"", author:""};
   return quotes[Math.floor(Math.random() * quotes.length)];
 };
 
