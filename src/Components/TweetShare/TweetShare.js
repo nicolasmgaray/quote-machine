@@ -13,6 +13,6 @@ const TweetShare = ({ hashtag, text }) => {
 };
 
 const getTweetUrl = (hashtag, text) =>
-  `https://twitter.com/intent/tweet?hashtags=${hashtag}&text=${text}`;
+  `https://twitter.com/intent/tweet?hashtags=${encodeURIComponent(hashtag)}&text=${encodeURIComponent(text)}`;
 
 export default TweetShare;

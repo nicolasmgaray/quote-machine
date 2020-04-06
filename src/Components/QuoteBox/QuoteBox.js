@@ -18,7 +18,7 @@ const QuoteBox = ({ quote, changeQuote }) => {
       <div className="buttonBar">
         <TweetShare
           hashtag={"quote"}
-          text={encodeURIComponent('"' + text + '" ' + author)}
+          text={`"${text}" ${author}`}
         />
         <button id="new-quote" onClick={changeQuote}>
           New quote
