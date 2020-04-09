@@ -8,4 +8,4 @@ Little app that shows a random quote wich you can share via twitter.
 
 ## Live Demo
 
-https://fcc-quote-machine.now.sh/
+https://mng-quote-machine.now.sh/
